@@ -4,6 +4,12 @@ import { Hits } from 'react-instantsearch-dom';
 
 
 class App extends Component {
+
+  const Content = () =>
+  <div className = content">
+  	<Hits hitComponent = {hit} />
+  </div>
+  
   render() {
     return (
   <InstantSearch
